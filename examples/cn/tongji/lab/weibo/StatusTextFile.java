@@ -7,6 +7,8 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import cn.tongji.lab.database.ConnectDatabase;
+
 public class StatusTextFile {
 
 	public StatusTextFile() {

@@ -1,4 +1,4 @@
-package cn.tongji.lab.weibo;
+package cn.tongji.lab.database;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -11,6 +11,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import cn.tongji.lab.model.FollowingShip;
 import weibo4j.model.Status;
 import weibo4j.model.User;
 

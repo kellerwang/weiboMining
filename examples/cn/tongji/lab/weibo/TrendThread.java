@@ -2,6 +2,7 @@ package cn.tongji.lab.weibo;
 
 import java.util.List;
 
+import cn.tongji.lab.log.MyLog;
 import weibo4j.Account;
 import weibo4j.Timeline;
 import weibo4j.model.Trend;

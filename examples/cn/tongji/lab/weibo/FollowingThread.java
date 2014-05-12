@@ -5,6 +5,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.tongji.lab.database.ConnectDatabase;
+import cn.tongji.lab.log.MyLog;
+import cn.tongji.lab.model.FollowingShip;
 import weibo4j.Account;
 import weibo4j.Friendships;
 import weibo4j.Users;

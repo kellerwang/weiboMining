@@ -18,7 +18,7 @@ import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.Token;
 import org.apache.lucene.analysis.TokenStream;
 
-import cn.tongji.lab.weibo.ConnectDatabase;
+import cn.tongji.lab.database.ConnectDatabase;
 
 public class FenciTest {
 	private static Map<String, Integer> lexiconHM = new HashMap<String, Integer>();

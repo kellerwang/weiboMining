@@ -1,4 +1,4 @@
-package cn.tongji.lab.weibo;
+package cn.tongji.lab.log;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;

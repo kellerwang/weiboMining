@@ -1,4 +1,4 @@
-package cn.tongji.lab.weibo;
+package cn.tongji.lab.model;
 
 import weibo4j.model.User;
 
