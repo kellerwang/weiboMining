@@ -177,7 +177,7 @@ public class ConnectDatabase {
 		pstmt.execute();
 		conn.commit();
 	}
-
+	
 	public boolean InsertSql(FollowingShip fs) throws SQLException {
 		if (isFollowingShipExist(fs)) {
 			return false;

@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -74,7 +75,14 @@ public class FenciTest {
 		Analyzer analyzer = new PaodingAnalyzer();
 		ConnectDatabase cd = new ConnectDatabase();
 		Connection conn = cd.ConnectMysql();
+		Date dt = new Date();
+		String[] tempShuZu = dt.toString().split(" ");
+		String temp_str = tempShuZu[0] + " " + tempShuZu[1] + " "
+				+ tempShuZu[2] + "%" + tempShuZu[4] + " " + tempShuZu[5];
 		String sqlSelectAll = "select * from status";
+		// String sqlSelectAll = "select * from status where created_at LIKE '"
+		// + temp_str + "';";
+		System.out.println(sqlSelectAll);
 		ResultSet rs = cd.selectSQL(sqlSelectAll);
 		int timeCount = 0;
 		try {
